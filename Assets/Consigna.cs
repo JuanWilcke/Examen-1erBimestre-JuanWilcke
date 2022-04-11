@@ -19,9 +19,13 @@ public class Consigna : MonoBehaviour
 
         if (true)
         {
-            if (año<3)
+            if (año < 3)
             {
                 Debug.Log("Error, aun estas en ciclo basico");
+            }
+            if (año > 5)
+            {
+                Debug.Log("Error, inserte un numero del 1 al 5");
             }
             if (especialidad != T)
             {
@@ -44,16 +48,15 @@ public class Consigna : MonoBehaviour
                 Debug.Log("Solo se puede ingresar T, G, H, D o M");
             }
 
-
         }
         else
         {
-            Debug.Log("Muchas gracias, ", nombre);
+            Debug.Log("Muchas gracias" + nombre);
         }
-
+    }
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
