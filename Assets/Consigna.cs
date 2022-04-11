@@ -51,6 +51,7 @@ public class Consigna : MonoBehaviour
         }
         else
         {
+            //Sale error, no pude solucionarlo
             Debug.Log("Muchas gracias " + nombre);
         }
     }
