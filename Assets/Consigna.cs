@@ -51,7 +51,7 @@ public class Consigna : MonoBehaviour
         }
         else
         {
-            Debug.Log("Muchas gracias" + nombre);
+            Debug.Log("Muchas gracias " + nombre);
         }
     }
     // Update is called once per frame
